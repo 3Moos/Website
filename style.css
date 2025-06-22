@@ -1,67 +1,17 @@
-#layout{
-        display: flex;
-        justify-content: center;
-        /* align-items: center;*/ /*Aligns all elements to center(like center of full page not just horizental) of pg*/
-        width: 100vw;
-        gap: 2.5vw;
-        margin-top: 20px;
-      }
-      #middle_column {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-      }
-    #header{
-         border: 5px solid;
-         width: 60vw;
-         height: 10vh;
-         /* margin: 0 auto; */
-         border-color: rgb(43, 153, 226);
-         background-color: bisque;
-         text-align: center;
-     }
-     #center{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-       border: 5px solid;
-         width: 60vw;
-         height: 70vh;
-         /* margin: 0 auto; */
-         border-color: rgb(43, 153, 226);
-         background-color: bisque;
-         text-align: center;
-     }
-      
-    #left_box{
-      border: 5px dotted;
-      width: 20vw;
-      height: 100vh;
-      display: flex;
-      justify-content: space-between; /* pushes items to edges */
-      padding: 20px;
-      margin-left: 1vw;
-      margin-bottom: 1vh;;
+/* 
+ #box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    border-color: blueviolet;
+    background-color: bisque;
 }
 
-    #right_box{
-      border: 5px dotted;
-      width: 20vw;
-      height: 100vh;
-      /* margin-top: 10vh;
-      margin-bottom: 10vh; */
-      display: flex;
-      justify-content: space-between; /* pushes items to edges */
-      padding: 20px;
-      margin-right: 1vw;
-      margin-bottom: 1vh;
-  }
 
-
-.left{
-  background-color: brown;
-}
-.right{
-  background-color: cornflowerblue;
-}
+h3 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    border-color: blueviolet;
+    background-color: bisque;
+} */
