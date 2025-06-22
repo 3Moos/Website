@@ -9,7 +9,7 @@
   <body> <!--ain content of the webpage-->
     <style>
       
-#layout{
+      #layout{
         display: flex;
         justify-content: center;
         /* align-items: center;*/ /*Aligns all elements to center(like center of full page not just horizental) of pg*/
@@ -22,104 +22,105 @@
         flex-direction: column;
         gap: 20px;
       }
-    #header{
-         border: 5px solid;
-         width: 60vw;
-         height: 10vh;
-         /* margin: 0 auto; */
-         border-color: rgb(43, 153, 226);
-         background-color: bisque;
-         text-align: center;
-     }
-     #center{
+      #header{
+        border: 5px solid;
+        width: 60vw;
+        height: 10vh;
+        /* margin: 0 auto; */
+        border-color: rgb(43, 153, 226);
+        background-color: bisque;
+        text-align: center;
+      }
+      #center{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
-       border: 5px solid;
-         width: 60vw;
-         height: 70vh;
-         /* margin: 0 auto; */
-         border-color: rgb(43, 153, 226);
-         background-color: bisque;
-         text-align: center;
-     }
+        border: 5px solid;
+        width: 60vw;
+        height: 70vh;
+        /* margin: 0 auto; */
+        border-color: rgb(43, 153, 226);
+        background-color: bisque;
+        text-align: center;
+      }
       
-    #left_box{
-      border: 5px solid;
-      border-color: darkolivegreen;
-      width: 20vw;
-      height: 100vh;
-      display: flex;
-      justify-content: space-between; /* pushes items to edges */
-      padding: 20px;
-      margin-left: 1vw;
-      margin-bottom: 1vh;;
-}
-
-    #right_box{
-      border: 5px solid;
-      border-color: darkolivegreen;
-      width: 20vw;
-      height: 100vh;
-      /* margin-top: 10vh;
-      margin-bottom: 10vh; */
-      display: flex;
-      /* justify-content: space-between; */ /* pushes items to edges */
-      flex-direction: column; /* stack children vertically */
-      justify-content: flex-start; /* start from top */
-      padding: 20px;
-      margin-right: 1vw;
-      margin-bottom: 1vh;
-      h4 {
-      margin-bottom: 5px;
+      #left_box{
+        border: 5px solid;
+        border-color: darkolivegreen;
+        width: 20vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between; /* pushes items to edges */
+        padding: 20px;
+        margin-left: 1vw;
+        margin-bottom: 1vh;;
       }
-      #currently_reading {
-        margin-top: 0px;
+      
+      #right_box{
+        border: 5px solid;
+        border-color: darkolivegreen;
+        width: 20vw;
+        height: 100vh;
+        /* margin-top: 10vh;
+        margin-bottom: 10vh; */
+        display: flex;
+        /* justify-content: space-between; */ /* pushes items to edges */
+        flex-direction: column; /* stack children vertically */
+        justify-content: flex-start; /* start from top */
+        padding: 20px;
+        margin-right: 1vw;
+        margin-bottom: 1vh;
+        h4 {
+          margin-bottom: 5px;
+        }
+        #currently_reading {
+          margin-top: 0px;
+        }
       }
-  }
-
-
-.left{
-  background-color: brown;
-}
-.right{
-  background-color: cornflowerblue;
-}
-
-
-    </style>
+      
+      
+      .left{
+        background-color: brown;
+      }
+      .right{
+        background-color: cornflowerblue;
+      }
+      
+      
+      </style>
 
 <div id="layout">
   <div id="left_box"
-    class="left">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non eos corporis quia voluptatum consequatur ex laborum error numquam fugit optio. Quibusdam animi ab quas in commodi modi dolore numquam! Suscipit.
+  class="left">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non eos corporis quia voluptatum consequatur ex laborum error numquam fugit optio. Quibusdam animi ab quas in commodi modi dolore numquam! Suscipit.
+</div>
+<div id="middle_column">
+  <div id="header">
+    This is the top of the webpagb!
   </div>
-  <div id="middle_column">
-    <div id="header">
-        This is the top of the webpagb!
-    </div>
-    <div id="center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, reprehenderit eaque ea perferendis consequatur soluta ipsum velit alias iste sit sint est obcaecati ratione quae, earum necessitatibus debitis. Tempora, odit.
-    </div>
-  </div>
-  <div id="right_box"
-  class="right">
-  <h2>Books Read</h2>
-    <ul>
-      <li>Fahrenheight 451</li>
-      <li>Book</li>
-      <li>Wow I need to read more, this is sad</li>
-    </ul>
-    <h4 id="currently_reading" style="text-indent: .5em;">Currently Reading</h4>
-      <ul>
-        <li>1984</li>
-        <li>Wool</li>
-      </ul>
-
-  
+  <div id="center">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, reprehenderit eaque ea perferendis consequatur soluta ipsum velit alias iste sit sint est obcaecati ratione quae, earum necessitatibus debitis. Tempora, odit.
   </div>
 </div>
+<div id="right_box"
+class="right">
+<h2>Books Read</h2>
+<ul>
+  <li>Fahrenheight 451</li>
+  <li>Book</li>
+  <li>Wow I need to read more, this is sad</li>
+</ul>
+<h4 id="currently_reading" style="text-indent: .5em;">Currently Reading</h4>
+<ul>
+  <li>1984</li>
+  <li>Wool</li>
+</ul>
 
-  </body>
+
+</div>
+</div>
+
+<script src="index.js"></script>
+</body>
 </html>
