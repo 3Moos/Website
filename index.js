@@ -3,4 +3,6 @@
 
 // window.alert(`This is an alert`);
 
-document.getElementById("l1").textContent = "Booky book";
+window.onload = function () {
+  document.getElementById("l1").textContent = "Booky book";
+};
