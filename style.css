@@ -1,1 +1,5 @@
-
+#header{
+    border: 5px;
+    border-color: blueviolet;
+    border-left: 3px;
+}
