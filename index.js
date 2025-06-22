@@ -3,4 +3,4 @@
 
 // window.alert(`This is an alert`);
 
-document.getElementById("l1").textContent = `Booky book`;
+document.getElementById("l1").textContent = "Booky book";
