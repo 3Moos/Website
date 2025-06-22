@@ -1,4 +1,4 @@
-<style>
+
  #box1{
     border: 5px solid;
     width: 250px;
@@ -6,4 +6,12 @@
     border-color: blueviolet;
     background-color: bisque;
 }
-</style>
+
+
+h3 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    border-color: blueviolet;
+    background-color: bisque;
+}
